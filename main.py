@@ -24,3 +24,7 @@ def draw_board():
 
 os.system('cls' if os.name == 'nt' else 'clear')
 print("\033[?25l", end="")
+
+while True:
+    # game logic
+    break
