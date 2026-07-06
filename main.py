@@ -21,3 +21,6 @@ def draw_board():
     # render
     output = "\033[H" + "\n".join("".join(row) for row in board)
     print(output, end="", flush=True)
+
+os.system('cls' if os.name == 'nt' else 'clear')
+print("\033[?25l", end="")
