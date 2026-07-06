@@ -23,8 +23,17 @@ def draw_board():
     print(output, end="", flush=True)
 
 os.system('cls' if os.name == 'nt' else 'clear')
-print("\033[?25l", end="")
+print("\033[?25l", end="") # hide cursor
 
 while True:
-    # game logic
+    # keyboard input handling
+
+    # calculate new head position per-frame
+
+    # collision conditions (runs into self, runs into wall)
+
+    # logic after eating food (grow snake, spawn new food)
+
     break
+
+# game over + restore cursor
